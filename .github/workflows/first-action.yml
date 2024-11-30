@@ -1,0 +1,13 @@
+name: First Workflow
+on: workflow_dispach
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print something
+        run: echo "this is something"
+      - name: print else
+        run: echo "else"
+    
+  
+  
